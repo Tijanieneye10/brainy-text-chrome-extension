@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Brainy Text Generator",
+    "version": "0.0.1",
+    "description": "Get a random dummy text for testing your forms input, while developing a web applications",
+    "permissions": [
+        "contextMenus",
+        "webRequest",
+        "tabs",
+        "storage"
+    ],
+
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon.png",
+            "32": "images/icon.png",
+            "48": "images/icon.png",
+            "128":"images/icon.png"
+           }
+    }
+}
